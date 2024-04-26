@@ -3,19 +3,36 @@
 In this assignment, you will be learning more about `git` and `GitHub` by working through the questions. As you answer the questions, you will practice your git skills by staging, committing and pushing your answers (changes) along the way.
 
 1. Create a new public repository called `git_assignment` without a `README.md`
-2. Clone it to your local computer
-3. Create a `README.md` and paste the following code inside:
+   > https://github.com/MarioKlaes/git_assignment.git
+3. Clone it to your local computer
+   > git clone https://github.com/MarioKlaes/git_assignment.git
+5. Create a `README.md` and paste the following code inside:
 
     ```markdown
     # Git Assignment - <Your GitHub Username>
     ```
+    > nano README.md
+    > 
+    > cat README.md
 
-4. Stage, commit and push the repo
-5. Create a new branch called `assignment`
-6. In your `README.md`, answer the following questions:
+6. Stage, commit and push the repo
+   > git satus
+   > 
+   > git add README.md
+   > 
+   > git commit -m "my first commit"
+   > 
+   > git push
+
+8. Create a new branch called `assignment`
+    > git branch -c assignment
+    > 
+    > git branch -v
+
+10. In your `README.md`, answer the following questions:
     
     > a. What is an _issue_?
-    
+
     > b. What is a _pull request_?
 
     > c. How do I open up a _pull request_?
@@ -58,9 +75,9 @@ Feel free to at any point (recommended after answering every 2 questions) to sta
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] Create a branch called `assignment`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-3-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
