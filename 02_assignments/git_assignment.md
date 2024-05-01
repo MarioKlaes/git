@@ -28,6 +28,8 @@ In this assignment, you will be learning more about `git` and `GitHub` by workin
     > git branch -c assignment
     > 
     > git branch -v
+    >
+    >  git push -u origin assignment
 
 10. In your `README.md`, answer the following questions:
     
